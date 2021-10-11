@@ -128,8 +128,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BatchesController.cs" />
     <Compile Include="Controllers\CourseTsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RegistrationsController.cs" />
     <Compile Include="Data\UserBaseWebApplicationContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -226,6 +228,11 @@
     <Content Include="Views\Batches\Details.cshtml" />
     <Content Include="Views\Batches\Edit.cshtml" />
     <Content Include="Views\Batches\Index.cshtml" />
+    <Content Include="Views\Registrations\Create.cshtml" />
+    <Content Include="Views\Registrations\Delete.cshtml" />
+    <Content Include="Views\Registrations\Details.cshtml" />
+    <Content Include="Views\Registrations\Edit.cshtml" />
+    <Content Include="Views\Registrations\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

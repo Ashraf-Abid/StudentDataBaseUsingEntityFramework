@@ -80,3 +80,4 @@ C:\Users\ASUS\source\repos\UserBaseWebApplication\UserBaseWebApplication\obj\Deb
 C:\Users\ASUS\source\repos\UserBaseWebApplication\UserBaseWebApplication\obj\Debug\UserBaseWebApplication.csproj.CopyComplete
 C:\Users\ASUS\source\repos\UserBaseWebApplication\UserBaseWebApplication\obj\Debug\UserBaseWebApplication.dll
 C:\Users\ASUS\source\repos\UserBaseWebApplication\UserBaseWebApplication\obj\Debug\UserBaseWebApplication.pdb
+C:\Users\ASUS\source\repos\UserBaseWebApplication\UserBaseWebApplication\obj\Debug\UserBaseWebApplication.csproj.AssemblyReference.cache
