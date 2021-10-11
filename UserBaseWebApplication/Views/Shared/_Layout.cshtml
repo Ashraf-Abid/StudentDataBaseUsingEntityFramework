@@ -16,13 +16,25 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("STUDENT", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Course", "Index", "CourseTs")</li>
+                    <li>@Html.ActionLink("Batch", "Index", "Batches")</li>
+                    <li>@Html.ActionLink("Registration", "Index", "Registrations")</li>
+                    <li>@Html.ActionLink("User", "Index", "Users")</li>
+                    <li>@Html.ActionLink("Login", "Index", "Login")</li>
+
+                </ul>
+                <ul class="nav navbar-nav-right" style="color:white">
+                    @if (Session["UserId"] != null)
+                    {
+                    <h4 style="color:white">Hello @Session["UserName"]</h4>
+                     @Html.ActionLink("Logout", "Logout", "Login");
+                    }
+                  
                 </ul>
             </div>
         </div>
